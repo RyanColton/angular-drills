@@ -1,0 +1,11 @@
+<button ui-sref='home'>Home</button>
+
+<button ui-sref='details'>Details</button>
+
+<h2>Sign Up</h2>
+
+<form ng-submit="signIn(user)">
+<p>Username: <input ng-model="user.username"></p>
+<p>Password: <input ng-model="user.password" type="password" required></p>
+<button type="button">Sign In</button>
+</form>
